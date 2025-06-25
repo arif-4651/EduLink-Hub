@@ -1,0 +1,40 @@
+<!-- HTML/signup.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Signup Page</title>
+  <link rel="icon" href="../images/logo.png" type="image/png">
+  <link rel="stylesheet" href="../CSS/signup.css" />
+</head>
+<body>
+  <div class="signup-container">
+    <form class="signup-form">
+      <h2>Create Account</h2>
+
+      <div class="input-group">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" placeholder="Enter your name" required />
+      </div>
+
+      <div class="input-group">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" placeholder="Enter your email" required />
+      </div>
+
+      <div class="input-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Enter password" required />
+      </div>
+
+      <div class="input-group">
+        <label for="confirm-password">Confirm Password</label>
+        <input type="password" id="confirm-password" placeholder="Confirm password" required />
+      </div>
+      <button type="button" class="signup-btn" onclick="window.location.href='../HTML/login.html'">Sign in</button> 
+      <p class="signin-link">Already have an account? <a href="../HTML/login.html">Log in</a></p>
+    </form>
+  </div>
+</body>
+</html>
